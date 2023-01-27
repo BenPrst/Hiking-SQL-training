@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;800&display=swap");
+body {
+  background-image: url(../images/hiking.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter";
+  font-weight: 200;
+}
+
+h1 {
+  font-family: "Inter";
+  font-weight: 800;
+}
+
+.title {
+  margin-left: 5%;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(2.5px);
+  -webkit-backdrop-filter: blur(2.5px);
+  border-radius: 10px;
+  margin: 0% 5%;
+}
+
+table {
+  width: 80%;
+}
+
+td {
+  text-align: center;
+  height: 3rem;
+  width: 3rem;
+  margin: 1rem 0rem;
+}
+td .td_name {
+  width: 500px;
+}
+
+.add {
+  margin-top: 1%;
+  margin-left: 5%;
+}
+
+.register {
+  align-self: flex-end;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
